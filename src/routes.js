@@ -44,6 +44,10 @@ import RTL from "layouts/rtl";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import Onboard from "layouts/authentication/onboard";
+import Campaign from "layouts/dashboard/campaign";
+import CreateCampaign from "layouts/dashboard/create-campaign";
+import AdSubmission from "layouts/dashboard/adsubmission";
 
 // Soft UI Dashboard React icons
 import Shop from "examples/Icons/Shop";
@@ -127,6 +131,42 @@ const routes = [
     route: "/authentication/sign-up",
     icon: <SpaceShip size="12px" />,
     component: <SignUp />,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Onboard",
+    key: "onboard",
+    route: "/authentication/onboard",
+    icon: <SpaceShip size="12px" />,
+    component: <Onboard />,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Campaign",
+    key: "campaign",
+    route: "/dashboard/campaign",
+    icon: <SpaceShip size="12px" />,
+    component: <Campaign />,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Create-Campaign",
+    key: "create-campaign",
+    route: "/dashboard/create-campaign",
+    icon: <SpaceShip size="12px" />,
+    component: <CreateCampaign />,
+    noCollapse: true,
+  },
+  {
+    type: "collapse",
+    name: "Ad-Submission",
+    key: "ad-submission",
+    route: "/dashboard/adsubmission",
+    icon: <SpaceShip size="12px" />,
+    component: <AdSubmission />,
     noCollapse: true,
   },
 ];

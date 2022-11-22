@@ -21,23 +21,23 @@ const reportsBarChartData = {
   items: [
     {
       icon: { color: "primary", component: "library_books" },
-      label: "users",
-      progress: { content: "36K", percentage: 60 },
+      label: "CPI",
+      progress: { content: "₹30", percentage: 100 },
     },
     {
       icon: { color: "info", component: "touch_app" },
-      label: "clicks",
-      progress: { content: "2M", percentage: 90 },
+      label: "Interac..",
+      progress: { content: "36K", percentage: 90 },
     },
     {
       icon: { color: "warning", component: "payment" },
-      label: "sales",
-      progress: { content: "$435", percentage: 30 },
+      label: "Cost",
+      progress: { content: "₹108K", percentage: 90 },
     },
     {
       icon: { color: "error", component: "extension" },
-      label: "items",
-      progress: { content: "43", percentage: 50 },
+      label: "GR",
+      progress: { content: "96%", percentage: 96 },
     },
   ],
 };
