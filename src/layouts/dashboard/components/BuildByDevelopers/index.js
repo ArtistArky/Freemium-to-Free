@@ -35,16 +35,15 @@ function BuildByDevelopers() {
             <SoftBox display="flex" flexDirection="column" height="100%">
               <SoftBox pt={1} mb={0.5}>
                 <SoftTypography variant="body2" color="text" fontWeight="medium">
-                  Build by developers
+                  Campaign ID
                 </SoftTypography>
               </SoftBox>
               <SoftTypography variant="h5" fontWeight="bold" gutterBottom>
-                Soft UI Dashboard
+                Camaign Name
               </SoftTypography>
               <SoftBox mb={6}>
                 <SoftTypography variant="body2" color="text">
-                  From colors, cards, typography to complex elements, you will find the full
-                  documentation.
+                  Created on:- DD/MM/YYYY
                 </SoftTypography>
               </SoftBox>
               <SoftTypography
@@ -71,12 +70,12 @@ function BuildByDevelopers() {
                   },
                 }}
               >
-                Read More
+                View
                 <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
               </SoftTypography>
             </SoftBox>
           </Grid>
-          <Grid item xs={12} lg={5} sx={{ position: "relative", ml: "auto" }}>
+          {/* <Grid item xs={12} lg={5} sx={{ position: "relative", ml: "auto" }}>
             <SoftBox
               height="100%"
               display="grid"
@@ -98,7 +97,7 @@ function BuildByDevelopers() {
               />
               <SoftBox component="img" src={rocketWhite} alt="rocket" width="100%" pt={3} />
             </SoftBox>
-          </Grid>
+          </Grid> */}
         </Grid>
       </SoftBox>
     </Card>

@@ -141,7 +141,7 @@ export default function App() {
             <Sidenav
               color={sidenavColor}
               brand={brand}
-              brandName="Soft UI Dashboard"
+              brandName="Ad Platform"
               routes={routes}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
@@ -165,7 +165,7 @@ export default function App() {
           <Sidenav
             color={sidenavColor}
             brand={brand}
-            brandName="Soft UI Dashboard"
+            brandName="Ad Platform"
             routes={routes}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
@@ -177,7 +177,7 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/dashboard" />} />
+        <Route path="*" element={<Navigate to="/dashboard/campaign" />} />
       </Routes>
     </ThemeProvider>
   );
